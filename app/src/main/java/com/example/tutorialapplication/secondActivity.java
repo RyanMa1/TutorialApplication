@@ -29,7 +29,6 @@ public class secondActivity extends AppCompatActivity {
 
         //edit text
 
-        final EditText editTextAddItem = (EditText) findViewById(R.id.userEditTextItem);
 
         //views
         myListView = (ListView) findViewById(R.id.myListView);
@@ -46,8 +45,6 @@ public class secondActivity extends AppCompatActivity {
         myListView.setAdapter(itemAdapter);
 
         //2-D array of strings
-
-        final List<String>fruits_list = new ArrayList<String>(Arrays.asList(items));
 
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
