@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnAdd = (Button) findViewById(R.id.additionButton);
         Button btnSecondActivity = (Button) findViewById(R.id.btn2ndActivity);
         Button btnGoogleSearch = (Button) findViewById(R.id.btnGoogleSearch);
+        Button btnThirdActivity = (Button) findViewById(R.id.btnThirdActivity);
 
 
         //example to start another activity!
@@ -68,6 +69,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        btnThirdActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent thirdActivityIntent = new Intent(getApplicationContext(), editOwnGroceryList.class);
+                startActivity(thirdActivityIntent);
+            }
+        });
+
 
     }
 }

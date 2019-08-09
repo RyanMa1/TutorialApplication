@@ -7,6 +7,10 @@
     <string name="btn_text_second_activity">Second Activity</string>
     <string name="btn_google_search">Google Search</string>
     <string name="second_activity_grocerylist">Grocery List</string>
+    <string name="user_enter_textview">Add a new item</string>
+    <string name="btn_add_item">Add</string>
+    <string name="btn_third_activity">Third Activity</string>
+
     <string-array name="items">
         <item>peach</item>
         <item>tomato</item>
