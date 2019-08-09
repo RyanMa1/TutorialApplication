@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TutorialApplication</string>
+    <string name="edit_first_text_number">Enter a Number</string>
+    <string name="edit_second_text_number">Enter a Number</string>
+    <string name="edit_addition_button">Add</string>
+    <string name="summation_text_view">Result</string>
+    <string name="btn_text_second_activity">Second Activity</string>
+    <string name="btn_google_search">Google Search</string>
+    <string name="second_activity_grocerylist">Grocery List</string>
+    <string name="user_enter_textview">Add a new item</string>
+    <string name="btn_add_item">Add</string>
+    <string name="btn_third_activity">Third Activity</string>
+
+    <string-array name="items">
+        <item>peach</item>
+        <item>tomato</item>
+        <item>squash</item>
+    </string-array>
+    <string-array name="prices">
+        <item>$0.99</item>
+        <item>$1.49</item>
+        <item>$0.89</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Fresh peaches from Georgia</item>
+        <item>Fresh salad tomatoes from Ohio</item>
+        <item>Fresh yellow squash from California</item>
+    </string-array>
+</resources>
