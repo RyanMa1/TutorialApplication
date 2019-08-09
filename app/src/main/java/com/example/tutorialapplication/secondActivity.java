@@ -39,9 +39,7 @@ public class secondActivity extends AppCompatActivity {
         prices = res.getStringArray(R.array.prices);
 
         //buttons
-        Button btnAddItem = (Button) findViewById(R.id.btnAddItem);
-
-        final itemAdapter itemAdapter = new itemAdapter(this, items, description, prices );
+        final itemAdapter itemAdapter = new itemAdapter(this, items, description, prices);
         myListView.setAdapter(itemAdapter);
 
         //2-D array of strings
@@ -50,20 +48,12 @@ public class secondActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent showDetailPic = new Intent(getApplicationContext(), foodActivityPicture.class);
-                showDetailPic.putExtra("com.example.tutorialapplication.ITEM_INDEX", position );
+                showDetailPic.putExtra("com.example.tutorialapplication.ITEM_INDEX", position);
                 startActivity(showDetailPic);
 
             }
         });
-
-        btnAddItem.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                
-            }
-        });                                  }
-
+    }
 //        if(getIntent().hasExtra("com.example.tutorialapplication.SOMETHING")){
 //            TextView tv = (TextView) findViewById(R.id.groceryListTextView);
 //            String text = getIntent().getExtras().getString("com.example.tutorialapplication.SOMETHING");
