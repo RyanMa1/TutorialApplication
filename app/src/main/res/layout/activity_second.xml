@@ -25,26 +25,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.012" />
 
-    <ListView
-        android:id="@+id/myListView"
-<<<<<<< HEAD
-        android:layout_width="367dp"
-        android:layout_height="622dp"
-=======
-        android:layout_width="185dp"
-        android:layout_height="269dp"
->>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/groceryListTextView"
-        app:layout_constraintVertical_bias="0.033" />
+        <ListView
+            android:id="@+id/myListView"
+
+            android:layout_width="362dp"
+            android:layout_height="612dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/groceryListTextView"
+            app:layout_constraintVertical_bias="0.033" />
 
 </android.support.constraint.ConstraintLayout>
