@@ -22,11 +22,7 @@
         android:layout_marginRight="45dp" />
 
     <EditText
-<<<<<<< HEAD
-        android:id="@+id/editText"
-=======
         android:id="@+id/addEditText"
->>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/groceryListView"
@@ -49,13 +45,9 @@
         android:id="@+id/btnAddItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:layout_alignStart="@+id/editText"
-        android:layout_alignLeft="@+id/editText"
-=======
+
         android:layout_alignStart="@+id/addEditText"
         android:layout_alignLeft="@+id/addEditText"
->>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
         android:layout_alignEnd="@+id/groceryListView"
         android:layout_alignRight="@+id/groceryListView"
         android:layout_alignParentTop="true"
