@@ -2,8 +2,6 @@ package com.example.tutorialapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-<<<<<<< HEAD
-=======
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,7 +11,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
->>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
 
 public class editOwnGroceryList extends AppCompatActivity {
 
@@ -21,8 +18,6 @@ public class editOwnGroceryList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_own_grocery_list);
-<<<<<<< HEAD
-=======
 
         //views
         final EditText add2ListView = (EditText) findViewById(R.id.addEditText);
@@ -57,6 +52,5 @@ public class editOwnGroceryList extends AppCompatActivity {
         });
 
 
->>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
     }
 }
