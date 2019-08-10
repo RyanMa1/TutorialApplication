@@ -27,8 +27,13 @@
 
     <ListView
         android:id="@+id/myListView"
+<<<<<<< HEAD
         android:layout_width="367dp"
         android:layout_height="622dp"
+=======
+        android:layout_width="185dp"
+        android:layout_height="269dp"
+>>>>>>> a166e82c8b99e36fd639c4477d3f1b9670519537
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
